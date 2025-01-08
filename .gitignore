@@ -1,3 +1,5 @@
+src/content/**/*.png
+
 # build output
 dist/
 # generated types
