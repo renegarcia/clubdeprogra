@@ -1,14 +1,9 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import PageLayout from "../layouts/PageLayout.astro"
 ---
 
-<Layout
-	title="Acerca"
-	description="Acerca del club de programación"
-	pubDate={new Date('January 08 2025')}
-	heroImage="/blog-placeholder-about.jpg"
->
-
-Bienvenido al club de programación.
-
-</Layout>
+<PageLayout>
+	<div class="min-h-[50vh] flex flex-col justify-center items-center">
+		Bienvenido al club de programación.
+	</div>
+</PageLayout>
